@@ -24,7 +24,6 @@ public class ZadanieDomowe2 {
         for (int i = 0; i < tablica.length; i++) {
             System.out.print(tablica[i] + ", ");
         }
-        int indeksMaksimum = 0;
         int szukaneMaksimum = tablica[0];
         for (int i = 1; i < tablica.length; i++) {
             if (szukaneMaksimum < tablica[i]) {
